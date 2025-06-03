@@ -1,0 +1,37 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1748886629.0400991,
+      "data": {
+        "message": "Genesis Block for Pharmaceutical Supply Chain"
+      },
+      "previous_hash": "0",
+      "device_id": "genesis_node",
+      "nonce": 0,
+      "hash": "b2467dd3f426d317f9e316d5d49cd4c60efc7d9c0d1ae5675328d2987f4f7bbe"
+    },
+    {
+      "index": 1,
+      "timestamp": 1748886645.4659452,
+      "data": {
+        "transactions": [
+          {
+            "transaction_id": "74f1f33b71a5d0018421255fd7de43db2c6c2e05d7f4548759eb9e7a6d00be80",
+            "content": "{\"Medicine name\": \"panad\", \"Expiration date\": \"22/10/2026\", \"Medicine count\": 1, \"user ID\": \"1\"}",
+            "timestamp": 1748886645.4658635,
+            "device_id": "GUI_1"
+          }
+        ],
+        "count": 1
+      },
+      "previous_hash": "b2467dd3f426d317f9e316d5d49cd4c60efc7d9c0d1ae5675328d2987f4f7bbe",
+      "device_id": "GUI_1",
+      "nonce": 5920,
+      "hash": "000395eda742f9a79713ce5bcb01d245f67e6dd652e6e79b1c6f4ddac69be5b7"
+    }
+  ],
+  "pending_transactions": [],
+  "difficulty": 3,
+  "nodes": []
+}
