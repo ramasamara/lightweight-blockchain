@@ -1,4 +1,4 @@
-"run the user interface"
+#run the user interface
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QMessageBox
 from PyQt5.QtCore import pyqtSignal, QObject, Qt
