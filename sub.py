@@ -1,3 +1,11 @@
+# This script connects a device (like a Raspberry Pi) to AWS IoT Core using MQTT over TLS.
+# It listens to a topic ("test") for incoming messages.
+# When a valid JSON message is received, it creates a new transaction, adds it to the blockchain,
+# mines a new block, and saves the updated blockchain state.
+# Additionally, it sends a message to the topic every 5 seconds with a count,
+# simulating periodic "button press" events.
+
+
 import time
 import paho.mqtt.client as mqtt
 import ssl
